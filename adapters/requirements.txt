@@ -1,0 +1,5 @@
+# Optional: only the adapter you use. petals_eval.py itself needs only the standard library (+ node >= 22).
+inspect-ai>=0.3.100     # inspect_petals.py
+lighteval>=0.10         # lighteval_petals.py (stub)
+datasets>=2.19          # loading the public dataset from the Hub (PETALS_HF_DATASET)
+huggingface_hub>=0.34   # hf CLI: uploads (docs/HUGGINGFACE.md)
